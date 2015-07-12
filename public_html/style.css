@@ -14,6 +14,7 @@
 body, html {
     direction: rtl;
     background: #555; /* testing */
+    height: auto !important;
 }
 ul, li {
     padding: 0;
@@ -59,6 +60,29 @@ img, a img,a {
 .menu .icon li.pos4 a { background-position: 112px 218px; } .menu .icon li.pos4 a:hover { background-position: 112px 188px; }
 .menu .icon li.pos5 a { background-position: 136px 218px; } .menu .icon li.pos5 a:hover { background-position: 136px 188px; }
 .menu .icon li.pos6 a { background-position: 160px 218px; } .menu .icon li.pos6 a:hover { background-position: 160px 188px; }
+.sec2 .PLogo { background-position: -21px -128px;}
+.sec2 .menu .icon li.pos1 a { background-position: 40px 218px; }  .sec2 .menu .icon li.pos1 a:hover { background-position: 40px 158px; }
+.sec2 .menu .icon li.pos2 a { background-position: 64px 218px; }  .sec2 .menu .icon li.pos2 a:hover { background-position: 64px 158px; }
+.sec2 .menu .icon li.pos3 a { background-position: 88px 218px; }  .sec2 .menu .icon li.pos3 a:hover { background-position: 88px 158px; }
+.sec2 .menu .icon li.pos4 a { background-position: 112px 218px; } .sec2 .menu .icon li.pos4 a:hover { background-position: 112px 158px; }
+.sec2 .menu .icon li.pos5 a { background-position: 136px 218px; } .sec2 .menu .icon li.pos5 a:hover { background-position: 136px 158px; }
+.sec2 .menu .icon li.pos6 a { background-position: 160px 218px; } .sec2 .menu .icon li.pos6 a:hover { background-position: 160px 158px; }
+.sec3 .PLogo { background-position: -21px -228px;}
+.sec3 .menu .icon li.pos1 a { background-position: 40px 218px; }  .menu .icon li.pos1 a:hover { background-position: 40px 188px; }
+.sec3 .menu .icon li.pos2 a { background-position: 64px 218px; }  .menu .icon li.pos2 a:hover { background-position: 64px 188px; }
+.sec3 .menu .icon li.pos3 a { background-position: 88px 218px; }  .menu .icon li.pos3 a:hover { background-position: 88px 188px; }
+.sec3 .menu .icon li.pos4 a { background-position: 112px 218px; } .menu .icon li.pos4 a:hover { background-position: 112px 188px; }
+.sec3 .menu .icon li.pos5 a { background-position: 136px 218px; } .menu .icon li.pos5 a:hover { background-position: 136px 188px; }
+.sec3 .menu .icon li.pos6 a { background-position: 160px 218px; } .menu .icon li.pos6 a:hover { background-position: 160px 188px; }
+.sec4 .menu { background: #000; } .sec4 a { color: #fff; }
+.sec4 .PLogo { background-position: -21px -328px;}
+.sec4 .menu .icon li.pos1 a { background-position: 40px 98px; }  .menu .icon li.pos1 a:hover { background-position: 40px 68px; }
+.sec4 .menu .icon li.pos2 a { background-position: 64px 98px; }  .menu .icon li.pos2 a:hover { background-position: 64px 68px; }
+.sec4 .menu .icon li.pos3 a { background-position: 88px 98px; }  .menu .icon li.pos3 a:hover { background-position: 88px 68px; }
+.sec4 .menu .icon li.pos4 a { background-position: 112px 98px; } .menu .icon li.pos4 a:hover { background-position: 112px 68px; }
+.sec4 .menu .icon li.pos5 a { background-position: 136px 98px; } .menu .icon li.pos5 a:hover { background-position: 136px 68px; }
+.sec4 .menu .icon li.pos6 a { background-position: 160px 98px; } .menu .icon li.pos6 a:hover { background-position: 160px 68px; }
+
 .menu .icon {
     padding: 10px 15px;
 }
@@ -70,12 +94,37 @@ img, a img,a {
 }
 .secNav li {
     float: right;
+    padding: 0 24px;
+    margin: 12px 0;
     
 }
+.searchBox {
+    position: relative;
+    margin-top: 9px;
+    margin-left: 10px
+}
+.searchBox #SearchInp {
+    width: 132px;
+    height: 20px;
+    margin: 0;
+    border: 0;
+    padding: 1px 28px 1px 3px;
+    border-radius: 5px;
+}
+.searchBox #SearchBtn {
+    width: 20px;
+    height: 20px;
+    background: url("images/icons.png") -53px 189px transparent;
+    border: none;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+.sec4 .searchBox #SearchBtn { background-position: -53px 159px; }
 .PLogo {
     background: url("images/icons.png") no-repeat -21px -28px;
     float: right;
     height: 53px;
     width: 249px;
-    margin-top: -5px;
+    margin-top: -17px;
 }

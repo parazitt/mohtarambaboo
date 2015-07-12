@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/BYekan.eot?#iefix") format("embedded-opentype"), url("fonts/BYekan.woff") format("woff"), url("fonts/BYekan.ttf") format("truetype"), url("fonts/BYekan.svg#b_nazaninregular") format("svg");
+}
+@font-face {
+    font-family: "Yekan";
+    font-style: normal;
+    font-weight: bold;
+    src: url("fonts/BYekan.eot?#iefix") format("embedded-opentype"), url("fonts/BYekan.woff") format("woff"), url("fonts/BYekan.ttf") format("truetype"), url("fonts/BYekan.svg#b_nazaninbold") format("svg");
+}
