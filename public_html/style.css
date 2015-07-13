@@ -42,46 +42,47 @@ img, a img,a {
     display: inline-block;
 }
 .menu .icon li a {
-    background: rgba(0, 0, 0, 0) url("images/icons.png") repeat scroll 112px 218px;
+    background: rgba(0, 0, 0, 0) url("images/icons2.png") repeat scroll 112px 218px;
     float: left;
     height: 20px;
     width: 20px;
 }
-.menu .icon li a {
+.menu .icon li a,.menu, .menu .PLogo {
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
     -ms-transition: all 200ms linear;
     -o-transition: all 200ms linear;
     transition: all 200ms linear;
 }
-.menu .icon li.pos1 a { background-position: 40px 218px; }  .menu .icon li.pos1 a:hover { background-position: 40px 188px; }
-.menu .icon li.pos2 a { background-position: 64px 218px; }  .menu .icon li.pos2 a:hover { background-position: 64px 188px; }
-.menu .icon li.pos3 a { background-position: 88px 218px; }  .menu .icon li.pos3 a:hover { background-position: 88px 188px; }
-.menu .icon li.pos4 a { background-position: 112px 218px; } .menu .icon li.pos4 a:hover { background-position: 112px 188px; }
-.menu .icon li.pos5 a { background-position: 136px 218px; } .menu .icon li.pos5 a:hover { background-position: 136px 188px; }
-.menu .icon li.pos6 a { background-position: 160px 218px; } .menu .icon li.pos6 a:hover { background-position: 160px 188px; }
-.sec2 .PLogo { background-position: -21px -128px;}
-.sec2 .menu .icon li.pos1 a { background-position: 40px 218px; }  .sec2 .menu .icon li.pos1 a:hover { background-position: 40px 158px; }
-.sec2 .menu .icon li.pos2 a { background-position: 64px 218px; }  .sec2 .menu .icon li.pos2 a:hover { background-position: 64px 158px; }
-.sec2 .menu .icon li.pos3 a { background-position: 88px 218px; }  .sec2 .menu .icon li.pos3 a:hover { background-position: 88px 158px; }
-.sec2 .menu .icon li.pos4 a { background-position: 112px 218px; } .sec2 .menu .icon li.pos4 a:hover { background-position: 112px 158px; }
-.sec2 .menu .icon li.pos5 a { background-position: 136px 218px; } .sec2 .menu .icon li.pos5 a:hover { background-position: 136px 158px; }
-.sec2 .menu .icon li.pos6 a { background-position: 160px 218px; } .sec2 .menu .icon li.pos6 a:hover { background-position: 160px 158px; }
-.sec3 .PLogo { background-position: -21px -228px;}
-.sec3 .menu .icon li.pos1 a { background-position: 40px 218px; }  .menu .icon li.pos1 a:hover { background-position: 40px 188px; }
-.sec3 .menu .icon li.pos2 a { background-position: 64px 218px; }  .menu .icon li.pos2 a:hover { background-position: 64px 188px; }
-.sec3 .menu .icon li.pos3 a { background-position: 88px 218px; }  .menu .icon li.pos3 a:hover { background-position: 88px 188px; }
-.sec3 .menu .icon li.pos4 a { background-position: 112px 218px; } .menu .icon li.pos4 a:hover { background-position: 112px 188px; }
-.sec3 .menu .icon li.pos5 a { background-position: 136px 218px; } .menu .icon li.pos5 a:hover { background-position: 136px 188px; }
-.sec3 .menu .icon li.pos6 a { background-position: 160px 218px; } .menu .icon li.pos6 a:hover { background-position: 160px 188px; }
-.sec4 .menu { background: #000; } .sec4 a { color: #fff; }
-.sec4 .PLogo { background-position: -21px -328px;}
-.sec4 .menu .icon li.pos1 a { background-position: 40px 98px; }  .menu .icon li.pos1 a:hover { background-position: 40px 68px; }
-.sec4 .menu .icon li.pos2 a { background-position: 64px 98px; }  .menu .icon li.pos2 a:hover { background-position: 64px 68px; }
-.sec4 .menu .icon li.pos3 a { background-position: 88px 98px; }  .menu .icon li.pos3 a:hover { background-position: 88px 68px; }
-.sec4 .menu .icon li.pos4 a { background-position: 112px 98px; } .menu .icon li.pos4 a:hover { background-position: 112px 68px; }
-.sec4 .menu .icon li.pos5 a { background-position: 136px 98px; } .menu .icon li.pos5 a:hover { background-position: 136px 68px; }
-.sec4 .menu .icon li.pos6 a { background-position: 160px 98px; } .menu .icon li.pos6 a:hover { background-position: 160px 68px; }
+.menu .icon li.pos1 a { background-position: 39px 278px; }  .menu .icon li.pos1 a:hover { background-position: 39px 248px; }
+.menu .icon li.pos2 a { background-position: 63px 278px; }  .menu .icon li.pos2 a:hover { background-position: 63px 248px; }
+.menu .icon li.pos3 a { background-position: 87px 278px; }  .menu .icon li.pos3 a:hover { background-position: 87px 248px; }
+.menu .icon li.pos4 a { background-position: 111px 278px; } .menu .icon li.pos4 a:hover { background-position: 111px 248px; }
+.menu .icon li.pos5 a { background-position: 135px 278px; } .menu .icon li.pos5 a:hover { background-position: 135px 248px; }
+.menu .icon li.pos6 a { background-position: 159px 278px; } .menu .icon li.pos6 a:hover { background-position: 159px 248px; }
+.page2 .PLogo { background-position: -21px -128px;}
+.page2 .menu .icon li.pos1 a { background-position: 39px 218px; }  .page2 .menu .icon li.pos1 a:hover { background-position: 39px 188px; }
+.page2 .menu .icon li.pos2 a { background-position: 63px 218px; }  .page2 .menu .icon li.pos2 a:hover { background-position: 63px 188px; }
+.page2 .menu .icon li.pos3 a { background-position: 87px 218px; }  .page2 .menu .icon li.pos3 a:hover { background-position: 87px 188px; }
+.page2 .menu .icon li.pos4 a { background-position: 111px 218px; } .page2 .menu .icon li.pos4 a:hover { background-position: 111px 188px; }
+.page2 .menu .icon li.pos5 a { background-position: 135px 218px; } .page2 .menu .icon li.pos5 a:hover { background-position: 135px 188px; }
+.page2 .menu .icon li.pos6 a { background-position: 159px 218px; } .page2 .menu .icon li.pos6 a:hover { background-position: 159px 188px; }
+.page3 .PLogo { background-position: -21px -228px;}
+.page3 .menu .icon li.pos1 a { background-position: 39px 158px; }  .page3 .menu .icon li.pos1 a:hover { background-position: 39px 128px; }
+.page3 .menu .icon li.pos2 a { background-position: 63px 158px; }  .page3 .menu .icon li.pos2 a:hover { background-position: 63px 128px; }
+.page3 .menu .icon li.pos3 a { background-position: 87px 158px; }  .page3 .menu .icon li.pos3 a:hover { background-position: 87px 128px; }
+.page3 .menu .icon li.pos4 a { background-position: 111px 158px; } .page3 .menu .icon li.pos4 a:hover { background-position: 111px 128px; }
+.page3 .menu .icon li.pos5 a { background-position: 135px 158px; } .page3 .menu .icon li.pos5 a:hover { background-position: 135px 128px; }
+.page3 .menu .icon li.pos6 a { background-position: 159px 158px; } .page3 .menu .icon li.pos6 a:hover { background-position: 159px 128px; }
+.page4 .menu { background: #000; } .page4 a { color: #fff; }
+.page4 .PLogo { background-position: -21px -328px;}
+.page4 .menu .icon li.pos1 a { background-position: 39px 68px; }  .page4 .menu .icon li.pos1 a:hover { background-position: 39px 38px; }
+.page4 .menu .icon li.pos2 a { background-position: 63px 68px; }  .page4 .menu .icon li.pos2 a:hover { background-position: 63px 38px; }
+.page4 .menu .icon li.pos3 a { background-position: 87px 68px; }  .page4 .menu .icon li.pos3 a:hover { background-position: 87px 38px; }
+.page4 .menu .icon li.pos4 a { background-position: 111px 68px; } .page4 .menu .icon li.pos4 a:hover { background-position: 111px 38px; }
+.page4 .menu .icon li.pos5 a { background-position: 135px 68px; } .page4 .menu .icon li.pos5 a:hover { background-position: 135px 38px; }
+.page4 .menu .icon li.pos6 a { background-position: 159px 68px; } .page4 .menu .icon li.pos6 a:hover { background-position: 159px 38px; }
+.page4 .searchBox #SearchBtn { background-position: -53px 159px; }
 
 .menu .icon {
     padding: 10px 15px;
@@ -120,7 +121,6 @@ img, a img,a {
     right: 5px;
     cursor: pointer;
 }
-.sec4 .searchBox #SearchBtn { background-position: -53px 159px; }
 .PLogo {
     background: url("images/icons.png") no-repeat -21px -28px;
     float: right;
@@ -128,9 +128,36 @@ img, a img,a {
     width: 249px;
     margin-top: -17px;
 }
-.sec1 .abs {
-    position: absolute;
+ .abs {
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
+}
+#slide1{
+    background-image: url(imgs/bg1.jpg);
+    padding: 6% 0 0 0;
+}
+#slide2{
+    background-image: url(imgs/bg4.jpg);
+    padding: 6% 0 0 0;
+}
+.fp-controlArrow.fp-next {
+    border: none;
+    background: url("images/icons.png") repeat scroll -75px 117px;
+    width: 32px;
+    height: 75px;
+}
+.fp-controlArrow.fp-prev {
+    border: none;
+    background: url("images/icons.png") repeat scroll -17px 117px;
+    width: 32px;
+    height: 75px;
+}
+.secNav li a {
+    font-family: Yekan, 'Yekan', tahoma, sans-serif;
+    line-height: 100%;
+}
+.secNav .active a {
+  text-decoration: underline;
 }

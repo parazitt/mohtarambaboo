@@ -13,8 +13,17 @@ and open the template in the editor.
         <script src="scripts/jquery.fullPage.min.js"></script>
         <script>
             jQuery(document).ready(function($){
-                $('body').fullpage({
+                $('.sections').fullpage({
+                    sectionsColor: ['#1bbc9b', '#d4bf96', '#154700', '#7BA3ASE'],
+				anchors: ['page1', 'page2', 'page3', 'page4'],
+				menu: '.secNav',
                     verticalCentered: false,
+                    afterLoad: function(anchorLink, index){
+                        var e = $(".abs");
+                        e.removeClass();
+                        e.addClass("abs");
+                        e.addClass(anchorLink);
+                    },
                     css3: true,
 		scrollingSpeed: 700,
 		fitToSection: true
@@ -27,10 +36,7 @@ and open the template in the editor.
         
     </head>
     <body>
-        <section class="sec1 section active">
-            <div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
-	    <div class="slide" id="slide2"><h1>Totally customizable</h1></div>
-            <div class="abs">
+        <div class="abs">
             <div class="menu">
                 <div class="right">
                     <ul class="icon">
@@ -44,11 +50,11 @@ and open the template in the editor.
                 </div>
                 <div class="menuLogo">
                     <ul class="secNav">
-                        <li><a href="#">P2</a></li>
-                        <li><a href="#">P1</a></li>
-                        <li><a class="PLogo" href="#"></a></li>
-                        <li><a href="#">P1</a></li>
-                        <li><a href="#">P1</a></li>
+                        <li data-menuanchor="page1" class="active"><a href="#page1">P2</a></li>
+                        <li data-menuanchor="page2" ><a href="#page2">P1</a></li>
+                        <li><a class="PLogo" href="http://google.com"></a></li>
+                        <li data-menuanchor="page3" ><a href="#page3">P1</a></li>
+                        <li data-menuanchor="page4" ><a href="#page4">P1</a></li>
                     </ul>
                 </div>
                 <div class="left searchBox">
@@ -58,109 +64,28 @@ and open the template in the editor.
                     </form>
                 </div>
             </div>
-            </div>
+        </div>
+        <div class="sections">
+        <section class="sec1 section active">
+            <div class="slide" id="slide1"></div>
+	    <div class="slide" id="slide2"></div>
         </section>
         <section class="sec2 section">
             <h1>fullPage.js</h1>
-            <div class="menu">
-                <div class="right">
-                    <ul class="icon">
-                        <li class="pos1"><a href="#"></a></li>
-                        <li class="pos2"><a href="#"></a></li>
-                        <li class="pos3"><a href="#"></a></li>
-                        <li class="pos4"><a href="#"></a></li>
-                        <li class="pos5"><a href="#"></a></li>
-                        <li class="pos6"><a href="#"></a></li>
-                    </ul>
-                </div>
-                <div class="menuLogo">
-                    <ul class="secNav">
-                        <li><a href="#">P2</a></li>
-                        <li><a href="#">P1</a></li>
-                        <li><a class="PLogo" href="#"></a></li>
-                        <li><a href="#">P1</a></li>
-                        <li><a href="#">P1</a></li>
-                    </ul>
-                </div>
-                <div class="left searchBox">
-                    <form action="/" method="get">
-                        <input type="text" name="s" id="SearchInp" />
-                        <input type="submit" value="" id="SearchBtn" />
-                    </form>
-                </div>
-            </div>
+            
         </section>
         <section class="sec3 section">
-            <div class="menu">
-                <div class="right">
-                    <ul class="icon">
-                        <li class="pos1"><a href="#"></a></li>
-                        <li class="pos2"><a href="#"></a></li>
-                        <li class="pos3"><a href="#"></a></li>
-                        <li class="pos4"><a href="#"></a></li>
-                        <li class="pos5"><a href="#"></a></li>
-                        <li class="pos6"><a href="#"></a></li>
-                    </ul>
-                </div>
-                <div class="menuLogo">
-                    <ul class="secNav">
-                        <li><a href="#">P2</a></li>
-                        <li><a href="#">P1</a></li>
-                        <li><a class="PLogo" href="#"></a></li>
-                        <li><a href="#">P1</a></li>
-                        <li><a href="#">P1</a></li>
-                    </ul>
-                </div>
-                <div class="left searchBox">
-                    <form action="/" method="get">
-                        <input type="text" name="s" id="SearchInp" />
-                        <input type="submit" value="" id="SearchBtn" />
-                    </form>
-                </div>
-            </div>
+            
         </section>
         <section class="sec4 section">
-            <div class="menu">
-                <div class="right">
-                    <ul class="icon">
-                        <li class="pos1"><a href="#"></a></li>
-                        <li class="pos2"><a href="#"></a></li>
-                        <li class="pos3"><a href="#"></a></li>
-                        <li class="pos4"><a href="#"></a></li>
-                        <li class="pos5"><a href="#"></a></li>
-                        <li class="pos6"><a href="#"></a></li>
-                    </ul>
-                </div>
-                <div class="menuLogo">
-                    <ul class="secNav">
-                        <li><a href="#">P2</a></li>
-                        <li><a href="#">P1</a></li>
-                        <li><a class="PLogo" href="#"></a></li>
-                        <li><a href="#">P1</a></li>
-                        <li><a href="#">P1</a></li>
-                    </ul>
-                </div>
-                <div class="left searchBox">
-                    <form action="/" method="get">
-                        <input type="text" name="s" id="SearchInp" />
-                        <input type="submit" value="" id="SearchBtn" />
-                    </form>
-                </div>
-            </div>
+            
         </section>
-        
+        </div>
     </body>
 </html>
 <!--
 
-#slide1{
-		background-image: url(imgs/bg2.jpg);
-		padding: 6% 0 0 0;
-	}
-	#slide2{
-		background-image: url(imgs/bg5.jpg);
-		padding: 6% 0 0 0;
-	}
+
 
 
 
