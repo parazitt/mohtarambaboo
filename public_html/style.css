@@ -135,11 +135,11 @@ img, a img,a {
     z-index: 10;
 }
 #slide1{
-    background-image: url(imgs/bg1.jpg);
+    background-image: url(images/slide1.jpg);
     padding: 6% 0 0 0;
 }
 #slide2{
-    background-image: url(imgs/bg4.jpg);
+    background-image: url(images/bg1.jpg);
     padding: 6% 0 0 0;
 }
 .fp-controlArrow.fp-next {
@@ -160,4 +160,10 @@ img, a img,a {
 }
 .secNav .active a {
   text-decoration: underline;
+}
+.sec2  {
+    background: url("images/yellowg.jpg");
+}
+.sec4  {
+    background: url("images/bwg.jpg");
 }
